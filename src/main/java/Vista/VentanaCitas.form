@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+    <Properties>
+        <Property name="defaultCloseOperation" type="int" value="1" />
+        <Property name="title" type="java.lang.String" value="Agenda de citas" />
+    </Properties>
+    <SyntheticProperties>
+        <SyntheticProperty name="formSizePolicy" type="int" value="1" />
+    </SyntheticProperties>
+    <AuxValues>
+        <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2" />
+        <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false" />
+        <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true" />
+        <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1" />
+    </AuxValues>
+    <Layout>
+        <DimensionLayout dim="0">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" attributes="0">
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                    <Group type="103" attributes="0" groupAlignment="0">
+                        <Component id="lblTitulo" min="0" pref="-1" max="32767" attributes="0" />
+                        <Component id="lblAyuda" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="panelDatos" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="panelAcciones" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="panelListado" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="scrollResultado" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="lblEstado" min="0" pref="-1" max="32767" attributes="0" />
+                    </Group>
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                </Group>
+            </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" attributes="0">
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                    <Component id="lblTitulo" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="lblAyuda" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="panelDatos" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="panelAcciones" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="panelListado" min="0" pref="-1" max="32767" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="scrollResultado" min="0" pref="100" max="32767" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="lblEstado" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                </Group>
+            </Group>
+        </DimensionLayout>
+    </Layout>
+    <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTitulo">
+            <Properties>
+                <Property name="text" type="java.lang.String" value="Agenda de citas" />
+            </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAyuda">
+            <Properties>
+                <Property name="text" type="java.lang.String" value="Primero registre mascota y recepcionista. La fecha puede modificarse antes de agendar." />
+            </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="panelDatos">
+            <Layout>
+                <DimensionLayout dim="0">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="0">
+                                <Component id="lblId" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblMascota" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblRecepcionista" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblFecha" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblMotivo" min="-2" pref="-1" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="16" pref="16" max="16" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="0">
+                                <Component id="txtId" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="cmbMascota" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="cmbRecepcionista" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtFecha" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtMotivo" min="0" pref="400" max="32767" attributes="0" />
+                            </Group>
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblId" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtId" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblMascota" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="cmbMascota" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblRecepcionista" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="cmbRecepcionista" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblFecha" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtFecha" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblMotivo" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtMotivo" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+            </Layout>
+            <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblId">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Identificador automático" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtId">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                        <Property name="editable" type="boolean" value="false" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblMascota">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Mascota" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cmbMascota">
+                    <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                            <StringArray count="1">
+                                <StringItem index="0" value="Seleccione..." />
+                            </StringArray>
+                        </Property>
+                    </Properties>
+                    <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;" />
+                    </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblRecepcionista">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Recepcionista" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cmbRecepcionista">
+                    <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                            <StringArray count="1">
+                                <StringItem index="0" value="Seleccione..." />
+                            </StringArray>
+                        </Property>
+                    </Properties>
+                    <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;" />
+                    </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFecha">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Fecha: dd/MM/aaaa HH:mm" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtFecha">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblMotivo">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Motivo" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtMotivo">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+            </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelAcciones">
+            <Layout>
+                <DimensionLayout dim="0">
+                    <Group type="103" attributes="0" groupAlignment="0">
+                        <Group type="102" attributes="0">
+                            <Component id="btnAgendar" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnBuscar" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnCancelar" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnAhora" min="0" pref="170" max="32767" attributes="0" />
+                        </Group>
+                        <Group type="102" attributes="0">
+                            <Component id="btnListar" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnNuevo" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnVolver" min="0" pref="170" max="32767" attributes="0" />
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="btnAgendar" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnBuscar" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnCancelar" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnAhora" min="-2" pref="30" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="btnListar" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnNuevo" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnVolver" min="-2" pref="30" max="-2" attributes="0" />
+                            </Group>
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+            </Layout>
+            <SubComponents>
+                <Component class="javax.swing.JButton" name="btnAgendar">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Agendar" />
+                        <Property name="actionCommand" type="java.lang.String" value="agendar" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnBuscar">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Ver seleccionado" />
+                        <Property name="actionCommand" type="java.lang.String" value="buscar" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnCancelar">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Cancelar cita" />
+                        <Property name="actionCommand" type="java.lang.String" value="cancelar" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnAhora">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Fecha actual" />
+                        <Property name="actionCommand" type="java.lang.String" value="ahora" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnListar">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Actualizar listado" />
+                        <Property name="actionCommand" type="java.lang.String" value="listar" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnNuevo">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Nuevo" />
+                        <Property name="actionCommand" type="java.lang.String" value="nuevo" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnVolver">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Volver al menú" />
+                        <Property name="actionCommand" type="java.lang.String" value="volver" />
+                    </Properties>
+                </Component>
+            </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelListado">
+            <Layout>
+                <DimensionLayout dim="0">
+                    <Group type="103" attributes="0" groupAlignment="0">
+                        <Group type="102" attributes="0">
+                            <Component id="lblFiltro" min="-2" pref="-1" max="-2" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="txtFiltro" min="0" pref="400" max="32767" attributes="0" />
+                        </Group>
+                        <Component id="scrollListado" min="0" pref="800" max="32767" attributes="0" />
+                    </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblFiltro" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtFiltro" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Component id="scrollListado" min="0" pref="140" max="32767" attributes="0" />
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+            </Layout>
+            <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblFiltro">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Buscar en el listado:" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtFiltro">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="scrollListado">
+                    <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+                    <SubComponents>
+                        <Component class="javax.swing.JTable" name="tablaRegistros">
+                            <Properties>
+                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                    <Table columnCount="4" rowCount="0">
+                                        <Column editable="false" title="ID" type="java.lang.Object" />
+                                        <Column editable="false" title="Fecha" type="java.lang.Object" />
+                                        <Column editable="false" title="Mascota" type="java.lang.Object" />
+                                        <Column editable="false" title="Estado" type="java.lang.Object" />
+                                    </Table>
+                                </Property>
+                                <Property name="autoCreateRowSorter" type="boolean" value="true" />
+                            </Properties>
+                        </Component>
+                    </SubComponents>
+                </Container>
+            </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="scrollResultado">
+            <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+            <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtResultado">
+                    <Properties>
+                        <Property name="editable" type="boolean" value="false" />
+                        <Property name="lineWrap" type="boolean" value="true" />
+                        <Property name="wrapStyleWord" type="boolean" value="true" />
+                    </Properties>
+                </Component>
+            </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblEstado">
+            <Properties>
+                <Property name="text" type="java.lang.String" value="Listo." />
+            </Properties>
+        </Component>
+    </SubComponents>
+</Form>

@@ -1,0 +1,7 @@
+<actions>
+    <action>
+        <actionName>run</actionName>
+        <goals><goal>process-classes</goal><goal>exec:java</goal></goals>
+        <properties><exec.mainClass>Aplicacion.Main</exec.mainClass></properties>
+    </action>
+</actions>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+    <Properties>
+        <Property name="defaultCloseOperation" type="int" value="1" />
+        <Property name="title" type="java.lang.String" value="Vacunas y medicamentos" />
+    </Properties>
+    <SyntheticProperties>
+        <SyntheticProperty name="formSizePolicy" type="int" value="1" />
+    </SyntheticProperties>
+    <AuxValues>
+        <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2" />
+        <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false" />
+        <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true" />
+        <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1" />
+    </AuxValues>
+    <Layout>
+        <DimensionLayout dim="0">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" attributes="0">
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                    <Group type="103" attributes="0" groupAlignment="0">
+                        <Component id="lblTitulo" min="0" pref="-1" max="32767" attributes="0" />
+                        <Component id="lblAyuda" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="panelDatos" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="panelAcciones" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="panelListado" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="scrollResultado" min="0" pref="960" max="32767" attributes="0" />
+                        <Component id="lblEstado" min="0" pref="-1" max="32767" attributes="0" />
+                    </Group>
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                </Group>
+            </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" attributes="0">
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                    <Component id="lblTitulo" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="lblAyuda" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="panelDatos" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="panelAcciones" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="panelListado" min="0" pref="-1" max="32767" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="scrollResultado" min="0" pref="100" max="32767" attributes="0" />
+                    <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                    <Component id="lblEstado" min="-2" pref="-1" max="-2" attributes="0" />
+                    <EmptySpace min="12" pref="12" max="12" attributes="0" />
+                </Group>
+            </Group>
+        </DimensionLayout>
+    </Layout>
+    <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTitulo">
+            <Properties>
+                <Property name="text" type="java.lang.String" value="Vacunas y medicamentos" />
+            </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAyuda">
+            <Properties>
+                <Property name="text" type="java.lang.String" value="Seleccione una consulta abierta. Valores sin puntos de miles, hasta dos decimales. Próxima dosis opcional." />
+            </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="panelDatos">
+            <Layout>
+                <DimensionLayout dim="0">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="0">
+                                <Component id="lblConsulta" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblTipo" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblCodigo" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblNombre" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblCantidad" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblValor" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblLote" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblProxima" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblDosis" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="lblVia" min="-2" pref="-1" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="16" pref="16" max="16" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="0">
+                                <Component id="cmbConsulta" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="cmbTipo" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtCodigo" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtNombre" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtCantidad" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtValor" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtLote" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtProxima" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtDosis" min="0" pref="400" max="32767" attributes="0" />
+                                <Component id="txtVia" min="0" pref="400" max="32767" attributes="0" />
+                            </Group>
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblConsulta" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="cmbConsulta" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblTipo" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="cmbTipo" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblCodigo" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtCodigo" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblNombre" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtNombre" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblCantidad" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtCantidad" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblValor" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtValor" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblLote" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtLote" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblProxima" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtProxima" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblDosis" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtDosis" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblVia" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtVia" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+            </Layout>
+            <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblConsulta">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Consulta" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cmbConsulta">
+                    <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                            <StringArray count="1">
+                                <StringItem index="0" value="Seleccione..." />
+                            </StringArray>
+                        </Property>
+                    </Properties>
+                    <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;" />
+                    </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblTipo">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Tipo de insumo" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cmbTipo">
+                    <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                            <StringArray count="2">
+                                <StringItem index="0" value="Vacuna" />
+                                <StringItem index="1" value="Medicamento" />
+                            </StringArray>
+                        </Property>
+                    </Properties>
+                    <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;" />
+                    </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblCodigo">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Código del insumo" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtCodigo">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblNombre">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Nombre" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtNombre">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblCantidad">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Cantidad" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtCantidad">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="1" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblValor">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Valor unitario" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtValor">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblLote">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Lote de vacuna" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtLote">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblProxima">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Próxima dosis: dd/MM/aaaa" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtProxima">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblDosis">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Dosis de medicamento" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtDosis">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblVia">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Vía de administración" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtVia">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+            </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelAcciones">
+            <Layout>
+                <DimensionLayout dim="0">
+                    <Group type="103" attributes="0" groupAlignment="0">
+                        <Group type="102" attributes="0">
+                            <Component id="btnAplicar" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnListar" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnNuevo" min="0" pref="170" max="32767" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="btnVolver" min="0" pref="170" max="32767" attributes="0" />
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="btnAplicar" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnListar" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnNuevo" min="-2" pref="30" max="-2" attributes="0" />
+                                <Component id="btnVolver" min="-2" pref="30" max="-2" attributes="0" />
+                            </Group>
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+            </Layout>
+            <SubComponents>
+                <Component class="javax.swing.JButton" name="btnAplicar">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Aplicar insumo" />
+                        <Property name="actionCommand" type="java.lang.String" value="aplicar" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnListar">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Actualizar listado" />
+                        <Property name="actionCommand" type="java.lang.String" value="listar" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnNuevo">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Nuevo insumo" />
+                        <Property name="actionCommand" type="java.lang.String" value="nuevo" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnVolver">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Volver al menú" />
+                        <Property name="actionCommand" type="java.lang.String" value="volver" />
+                    </Properties>
+                </Component>
+            </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelListado">
+            <Layout>
+                <DimensionLayout dim="0">
+                    <Group type="103" attributes="0" groupAlignment="0">
+                        <Group type="102" attributes="0">
+                            <Component id="lblFiltro" min="-2" pref="-1" max="-2" attributes="0" />
+                            <EmptySpace min="8" pref="8" max="8" attributes="0" />
+                            <Component id="txtFiltro" min="0" pref="400" max="32767" attributes="0" />
+                        </Group>
+                        <Component id="scrollListado" min="0" pref="800" max="32767" attributes="0" />
+                    </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" attributes="0">
+                            <Group type="103" attributes="0" groupAlignment="3" max="-2">
+                                <Component id="lblFiltro" min="-2" pref="-1" max="-2" attributes="0" />
+                                <Component id="txtFiltro" min="-2" pref="26" max="-2" attributes="0" />
+                            </Group>
+                            <EmptySpace min="5" pref="5" max="5" attributes="0" />
+                            <Component id="scrollListado" min="0" pref="140" max="32767" attributes="0" />
+                        </Group>
+                    </Group>
+                </DimensionLayout>
+            </Layout>
+            <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblFiltro">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="Buscar en el listado:" />
+                    </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtFiltro">
+                    <Properties>
+                        <Property name="text" type="java.lang.String" value="" />
+                    </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="scrollListado">
+                    <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+                    <SubComponents>
+                        <Component class="javax.swing.JTable" name="tablaRegistros">
+                            <Properties>
+                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                    <Table columnCount="5" rowCount="0">
+                                        <Column editable="false" title="Código" type="java.lang.Object" />
+                                        <Column editable="false" title="Tipo" type="java.lang.Object" />
+                                        <Column editable="false" title="Nombre" type="java.lang.Object" />
+                                        <Column editable="false" title="Cantidad" type="java.lang.Object" />
+                                        <Column editable="false" title="Total" type="java.lang.Object" />
+                                    </Table>
+                                </Property>
+                                <Property name="autoCreateRowSorter" type="boolean" value="true" />
+                            </Properties>
+                        </Component>
+                    </SubComponents>
+                </Container>
+            </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="scrollResultado">
+            <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+            <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtResultado">
+                    <Properties>
+                        <Property name="editable" type="boolean" value="false" />
+                        <Property name="lineWrap" type="boolean" value="true" />
+                        <Property name="wrapStyleWord" type="boolean" value="true" />
+                    </Properties>
+                </Component>
+            </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblEstado">
+            <Properties>
+                <Property name="text" type="java.lang.String" value="Listo." />
+            </Properties>
+        </Component>
+    </SubComponents>
+</Form>
